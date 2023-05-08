@@ -1,0 +1,246 @@
+/**
+Name: James Walker Bruckschen
+Name of file: homework2.CSS
+Date created: 2023-02-02
+Date last edited: 2023-03-31
+Description: This is assignment two where I create a form for hiring.
+**/
+fieldset { 
+    border-color:#cf2a2a;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    background-color:#0f1250 ;
+    color: #78d6fa;
+    margin: 50px;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    top: 50px;
+    left: 20px;
+   margin-bottom: 10px;
+   width: 1000px;
+    
+    
+}
+fieldset.questions{
+  display: inline-block;
+}
+    
+button{
+    border:solid;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #78d6fa;
+    color:#78d6fa;
+    background-color:#cf2a2a ;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font:bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    cursor: pointer;
+}
+body{
+    text-align: center;
+    background-size: 1728px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    
+    
+
+}
+h1{
+    color:#78d6fa;
+    background-color: #0f1250;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    display: inline;
+    font-style: inherit;
+    position: relative;
+    top: -210px;
+    border-color:#cf2a2a;
+    padding: 8px;
+    left: 10px;
+    
+
+
+
+    
+}
+
+
+
+
+form{
+    text-align: center;
+    display: inline;
+  
+   
+
+}
+footer{
+    color: #78d6fa;
+    background-color: #0f1250;
+    width: 700px;
+    display: inline-block;
+    text-align: center;
+    position:relative;
+    top: -1000px;
+    border-style: solid;
+    border-color:#cf2a2a;
+    border-width: 3px;
+    padding: 5px;
+    border-radius: 8px;
+    left: 0px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+/**remove period**/
+}
+
+.logo-container {
+    position: relative;
+    top: 0;
+    left: -700px;
+ }
+ .logo {
+    position: relative;
+    width: 225px; 
+    height: 75px; 
+    z-index: 1;
+    background-color: #0f1250;
+    border-color:#cf2a2a;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+ }
+ table.table1{
+    text-align: right;
+    position: relative;
+    right:-1100px;
+    top: -175px;
+    background-color:#0f1250;
+    border: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:#cf2a2a;
+    font-style: normal;
+    width:500px;
+    padding: 6px;
+ }
+
+
+ li{
+    color: #78d6fa;
+    
+}
+a:link{
+   color:#cf2a2a;
+   
+}
+ a:visited{
+    color:#78d6fa ;
+ }
+ 
+ body {
+    background-image: url("ugh.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .top-block {
+
+    background-color: #0f1250;
+    position: relative;
+    top: -100px;
+   right: 100px;
+    height: 100px;
+    width: 1800px;
+  }
+  
+  .bottom-block {
+
+    background-color: #0f1250;
+    position: absolute;
+    bottom: -10px;
+    left: -40px;
+    right: 0;
+    height: 120px;
+    width: 1800px;
+  }
+ 
+    /**background-image: url('second try.jpg');**/
+    
+
+  div.fs1{
+    line-height: 22px;
+  }
+
+  div.password-error{
+    font-size: 100px;
+    color: #78d6fa;
+  }
+  .alert{
+    color: #cf2a2a;
+    font-size: large;
+  }
+  table#outputTable {
+    border-collapse: collapse; /* Optional - this property makes the borders collapse into a single border */
+    border: 3px solid black; /* Sets a 1 pixel wide solid black border around the entire table */
+  }
+  
+  th#outputTable1, td#outputTable1 {
+    border: 3px solid black; /* Sets a 1 pixel wide solid black border around each table cell */
+  }
+  
+  tr#outputTable1 {
+    border: 3px solid black; /* Sets a 1 pixel wide solid black border around each table row */
+  }
+  
+  tbody.outputTableBody {
+    border: 3px solid black; /* Sets a 1 pixel wide solid black border around each table cell */
+  }
+
+  iframe{
+    background-color: #0f1250;
+    color: #78d6fa;
+    margin: 90px;
+    
+  }
+  p{
+    color: #78d6fa;
+  }
+  .header{
+    position: sticky;
+  }
+  /* Style the header 
+  .header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  
+  .content {
+    padding: 16px;
+  }
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }*/
