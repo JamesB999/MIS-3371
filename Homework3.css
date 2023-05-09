@@ -80,6 +80,7 @@ h1{
 form{
     text-align: center;
     display: inline;
+    z-index: 1;    
   
    
 
